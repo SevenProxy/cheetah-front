@@ -18,6 +18,7 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#7289da" />
         <meta property="og:image" content="/images/terms-en.png" />
+        <meta name="keywords" content="website, example, embed, discord" />
         <meta
           name="description"
           content="Hello and welcome to the Cheetah Solutions Network! We specialize in creating communities for Discord, developing dates for the SA:MP community, editing videos, creating custom websites and unique bots. We are ready to meet your needs and strengthen your online community."

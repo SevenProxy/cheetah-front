@@ -1,9 +1,9 @@
 "use client";
 import { useEffect } from "react";
-import AnimateHeaderEn from "@/components/header/animate-en-component";
-import ProjectsComponent from "@/components/projects/projects-en-component";
-import FooterEnHome from "@/components/footer/footer-en";
-import AboutEn from "@/components/about/about-en.component";
+import AnimateHeaderPT from "@/components/header/animate-pt-component";
+import AboutPt from "@/components/about/about-pt.component";
+import ProjectsPtComponent from "@/components/projects/projects-pt-component";
+import FooterPtHome from "@/components/footer/footer-pt";
 
 const HomePageEn = (): JSX.Element => {
   useEffect(() => {
@@ -24,10 +24,10 @@ const HomePageEn = (): JSX.Element => {
   }, []);
   return (
     <div className="relative">
-      <AnimateHeaderEn />
-      <AboutEn />
-      <ProjectsComponent />
-      <FooterEnHome />
+      <AnimateHeaderPT />
+      <AboutPt />
+      <ProjectsPtComponent />
+      <FooterPtHome />
     </div>
   );
 };

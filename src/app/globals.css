@@ -21,6 +21,7 @@
 }
 
 ::-webkit-scrollbar {
+	height: 0px;
 	width: 5px;
 	background: #202020;
 }

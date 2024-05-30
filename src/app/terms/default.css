@@ -1,0 +1,47 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+	color: #202020;
+	font-family: 'Russo One', sans-serif;
+	font-weight: 500;
+}
+
+p,
+li,
+span,
+label,
+input,
+textarea {
+	color: #202020;
+	font-family: 'Roboto Mono', monospace;
+}
+
+
+code {
+	background: #414141;
+	color: white;
+	padding: 2px 3px;
+	border-radius: 3px;
+}
+
+blockquote {
+	background: #929292;
+	padding: 3px 5px;
+	border-radius: 0px 5px 5px 0px;
+	border-left: 4px solid #636262;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+li {
+  margin-left: 30px;
+  display: list-item;
+  text-align: -webkit-match-parent;
+  unicode-bidi: isolate;
+}

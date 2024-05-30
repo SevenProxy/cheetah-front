@@ -1,21 +1,12 @@
-import FooterEnHome from '@/components/footer/footer-en';
+import FooterPtHome from '@/components/footer/footer-pt';
 import Markdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
-import rehypeKatex from 'rehype-katex';
 import rehypeRaw from 'rehype-raw';
 import fs from 'fs';
 import path from 'path';
 
-/*
-class TermsPageEn extends Component {
-  render(): ReactNode {
-    this.return ();
-  }
-}
-*/
-
-const TermsPageEn = (): JSX.Element => {
-  const filePath = path.join(process.cwd(), './public/markdown/terms-en.md');
+const TermsPagePt = (): JSX.Element => {
+  const filePath = path.join(process.cwd(), './public/markdown/terms-pt.md');
   const markdownContent = fs.readFileSync(filePath, 'utf8');
 
   return (
@@ -27,9 +18,9 @@ const TermsPageEn = (): JSX.Element => {
           </Markdown>
         </div>
       </div>
-      <FooterEnHome />
+      <FooterPtHome />
     </div>
   );
 }
 
-export default TermsPageEn;
+export default TermsPagePt;

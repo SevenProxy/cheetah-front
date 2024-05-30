@@ -2,23 +2,23 @@ import { PropsItems, PropsLink } from './types';
 
 const LINKS: PropsLink[] = [
   {
-    title: "Company",
+    title: "Empresa",
     items: [
       {
-        name: 'About',
+        name: 'Sobre',
         link: '#about',
       },
       {
-        name: 'Terms',
+        name: 'Termos',
         link: '/en/terms',
       }
     ],
   },
   {
-    title: "Product",
+    title: "Produto",
     items: [
       {
-        name: 'Services', 
+        name: 'Serviços', 
         link: '#services',
       },
     ],
@@ -26,7 +26,7 @@ const LINKS: PropsLink[] = [
 ];
 
 
-const FooterEnHome = (): JSX.Element => {
+const FooterPtHome = (): JSX.Element => {
   return (
     <footer className="bg-[--secondaryColor] py-8 relative w-full">
       <div className="mx-auto w-full max-w-7xl px-8">
@@ -61,8 +61,7 @@ const FooterEnHome = (): JSX.Element => {
           <p
             className="mb-4 text-center font-normal text-zinc-500 md:mb-0"
           >
-            &copy; 2024 <a href="https://discord.gg/bTxUSkysqG">Cheetah Solutions</a>. All
-            Rights Reserved.
+            &copy; 2024 <a href="https://discord.gg/bTxUSkysqG">Cheetah Solutions</a>. Tudo reservado.
           </p>
           <div className="flex gap-4 text-[--submitBtn] sm:justify-center">
             <a href="https://www.instagram.com/cheetah_solutions/" className="opacity-80 transition-opacity hover:opacity-100">
@@ -99,4 +98,4 @@ const FooterEnHome = (): JSX.Element => {
   );
 }
 
-export default FooterEnHome;
+export default FooterPtHome;
