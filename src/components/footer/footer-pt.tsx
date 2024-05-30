@@ -10,7 +10,7 @@ const LINKS: PropsLink[] = [
       },
       {
         name: 'Termos',
-        link: '/en/terms',
+        link: '/terms',
       }
     ],
   },
