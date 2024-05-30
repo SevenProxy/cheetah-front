@@ -17,8 +17,8 @@ const AnimateHeaderPT = (): JSX.Element => {
           <section className="h-fit w-full bg-[--mainColor] border-solid border-b-[1px] border-[--borderColor]">
             <div className="main-container w-[95%] md:w-[1000px] mx-auto h-full">
               <div className="grid text-center content-center min-h-[10em]">
-                <h1 className="mb-14 text-center text-6xl mt-10 flex items-start md:items-center justify-center">
-                  <Image className="select-none mr-2 w-14 h-14" src="/images/hi.gif" alt="hi" width={100} height={100} />
+                <h1 className="mb-14 text-center text-6xl mt-10 flex sm:flex-rows flex-col items-center sm:items-start md:items-center justify-center">
+                  <Image className="sm:mb-0 mb-2 select-none sm:mr-2 w-14 h-14" src="/images/hi.gif" alt="hi" width={100} height={100} />
                   Oi, Nós somos o Cheetah
                 </h1>
               </div>

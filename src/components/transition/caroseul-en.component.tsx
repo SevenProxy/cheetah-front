@@ -45,7 +45,7 @@ const cardMaps: CardMapsPops[] = [
 
 const CaroseulTrasitionEn = (): JSX.Element => {
   return (
-    <div className="lg:w-[40%] w-[80%]">
+    <div className="lg:w-[40%] w-[80%] sm:w-[70%]">
       <section className="w-full h-full">
         <div className="relative mx-auto w-full m-full">
           <Swiper

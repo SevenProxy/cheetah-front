@@ -19,7 +19,7 @@ const ProjectsPtComponent = (): JSX.Element => {
       <div id="services" className="py-10 main-container">
         <h2>Mais Serviços</h2>
         <div className="flex mt-8 flex-col md:flex-row my-5 justify-evenly items-center h-fit lg:h-[500px] min-h-[500px] mx-auto">
-          <div onMouseMove={handleMouseMove}  style={{ background: background }} className="relative bg-gradient-to-b from-gray-800 to-gray-800/20 flex flex-col max-w-[70%] max-h-1/2 lg:w-[30%] sm:w-screen border-2 rounded-md border-[--submitBtn] h-[500px] mb-14 lg:mb-0 md:h-full mr-4">
+          <div onMouseMove={handleMouseMove}  style={{ background: background }} className="relative bg-gradient-to-b from-gray-800 to-gray-800/20 flex flex-col max-w-[90%] sm:max-w-[70%] max-h-1/2 lg:w-[30%] sm:w-screen border-2 rounded-md border-[--submitBtn] h-fit sm:h-[500px] mb-14 lg:mb-0 md:h-full mr-4">
             <BannerCardComponent />
 
             <div className="flex flex-col items-center justify-center">
