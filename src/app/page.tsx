@@ -1,9 +1,10 @@
 "use client";
-import { useEffect } from "react";
-import AnimateHeaderPT from "@/components/header/animate-pt-component";
-import AboutPt from "@/components/about/about-pt.component";
-import ProjectsPtComponent from "@/components/projects/projects-pt-component";
-import FooterPtHome from "@/components/footer/footer-pt";
+import { useEffect } from 'react';
+import AnimateHeaderPT from '@/components/header/animate-pt-component';
+import AboutPt from '@/components/about/about-pt.component';
+import ProjectsPtComponent from '@/components/projects/projects-pt-component';
+import FooterPtHome from '@/components/footer/footer-pt';
+import DiscordPtComponent from '@/components/anuntions/discord-pt.component';
 
 const HomePageEn = (): JSX.Element => {
   useEffect(() => {
@@ -26,6 +27,7 @@ const HomePageEn = (): JSX.Element => {
     <div className="relative">
       <AnimateHeaderPT />
       <AboutPt />
+      <DiscordPtComponent />
       <ProjectsPtComponent />
       <FooterPtHome />
     </div>
