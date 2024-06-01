@@ -1,6 +1,6 @@
 import { useState, MouseEvent } from 'react';
 import BannerCardComponent from '../images/banner-card-component';
-import CaroseulTrasitionPt from '../transition/caroseul-pt.component';
+import CaroseulTrasitionPt from './transition/caroseul-pt.component';
 
 const ProjectsPtComponent = (): JSX.Element => {
   const [background, setBackground] = useState("radial-gradient(#1f2937, rgb(31 41 55 / 0))");
@@ -11,7 +11,6 @@ const ProjectsPtComponent = (): JSX.Element => {
     const x = ((clientX - left) / width) * 100;
     const y = ((clientY - top) / height) * 100;
     setBackground(`radial-gradient(circle at ${x}% ${y}%, #1f2937, rgb(31 41 55 / 0))`);
-    console.log(background)
   };
 
   return (
@@ -24,9 +23,9 @@ const ProjectsPtComponent = (): JSX.Element => {
 
             <div className="flex flex-col items-center justify-center">
               <div className="text-stone-800 dark:text-white rounded-b-md p-5 h-fit w-full ">
-                <p className="mb-4">👾 ~ Oferecemos uma variedade de datas personalizadas para a comunidade SA:MP. Temos opções de escape, anti-lag, PVP, modificações, FiveM e muito mais. Entre em contato conosco para descobrir todas as opções disponíveis e encontrar a que melhor se adapta às suas necessidades.</p>
+                <p className="mb-4 text-justify">👾 ~ Oferecemos uma variedade de datas personalizadas para a comunidade SA:MP. Temos opções de escape, anti-lag, PVP, modificações, FiveM e muito mais. Entre em contato conosco para descobrir todas as opções disponíveis e encontrar a que melhor se adapta às suas necessidades.</p>
                 
-                <p>Explore nossa seleção de datas personalizadas para a comunidade SA:MP!</p>
+                <p className="text-justify">Explore nossa seleção de datas personalizadas para a comunidade SA:MP!</p>
               </div>
             </div>
           </div>

@@ -3,8 +3,9 @@ import { useEffect } from 'react';
 import AnimateHeaderPT from '@/components/header/animate-pt-component';
 import AboutPt from '@/components/about/about-pt.component';
 import ProjectsPtComponent from '@/components/projects/projects-pt-component';
-import FooterPtHome from '@/components/footer/footer-pt';
+import FooterPtHome from '@/components/footer/footer-pt.component';
 import DiscordPtComponent from '@/components/anuntions/discord-pt.component';
+import PeoplesPtComponent from '@/components/peoples/peoples-pt.component';
 
 const HomePageEn = (): JSX.Element => {
   useEffect(() => {
@@ -29,6 +30,7 @@ const HomePageEn = (): JSX.Element => {
       <AboutPt />
       <DiscordPtComponent />
       <ProjectsPtComponent />
+      <PeoplesPtComponent />
       <FooterPtHome />
     </div>
   );

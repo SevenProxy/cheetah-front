@@ -2,7 +2,7 @@ import Image from 'next/image';
 import './settings.css';
 import { DISCORD } from '@/env/cheetah-links';
 
-const DiscordPtComponent = (): JSX.Element => {
+const DiscordEnComponent = (): JSX.Element => {
   return (
     <div className="bg-[--mainDark] w-full mx-augo py-8 flex items-center justify-center">
       <div className="w-full md:max-w-[70%] relative">
@@ -20,7 +20,7 @@ const DiscordPtComponent = (): JSX.Element => {
             className="rounded-[10px] w-full h-full flex flex-col items-center justify-between gap-4 p-6 md:flex-row"
           >
             <h3 className="my-2 text-2xl font-medium text-white lg:max-w-[41.1875rem] lg:text-3xl">
-              Gostou de nossos serviços? Entre no nosso servidor do Dicord!
+              Did you like our services? Join our Dicord server!
             </h3>
             <div className="flex flex-col items-center gap-6 lg:flex-row">
               <svg
@@ -41,7 +41,7 @@ const DiscordPtComponent = (): JSX.Element => {
                 href={DISCORD}
                 className="group flex w-full items-center justify-center px-6 gap-2 rounded-[0.625rem] text-sm font-bold uppercase leading-[16.41px] transition-colors md:w-fit disabled:cursor-not-allowed disabled:opacity-75 py-[1.125rem] max-h-[3.25rem] bg-white text-rocketseat-dark hover:bg-white/90"
               >
-                Entrar no servidor!
+                Join the server!
               </a>
             </div>
           </div>
@@ -66,4 +66,4 @@ const DiscordPtComponent = (): JSX.Element => {
   );
 };
 
-export default DiscordPtComponent;
+export default DiscordEnComponent;

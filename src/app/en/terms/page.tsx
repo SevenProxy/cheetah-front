@@ -1,4 +1,4 @@
-import FooterEnHome from '@/components/footer/footer-en';
+import FooterEnHome from '@/components/footer/footer-en.component';
 import Markdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import rehypeKatex from 'rehype-katex';

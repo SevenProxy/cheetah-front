@@ -1,9 +1,10 @@
 "use client";
 import { useEffect } from "react";
 import AnimateHeaderEn from "@/components/header/animate-en-component";
-import ProjectsComponent from "@/components/projects/projects-en-component";
-import FooterEnHome from "@/components/footer/footer-en";
 import AboutEn from "@/components/about/about-en.component";
+import ProjectsComponent from "@/components/projects/projects-en-component";
+import FooterEnHome from "@/components/footer/footer-en.component";
+import DiscordEnComponent from "@/components/anuntions/discord-en.component";
 
 const HomePageEn = (): JSX.Element => {
   useEffect(() => {
@@ -26,6 +27,7 @@ const HomePageEn = (): JSX.Element => {
     <div className="relative">
       <AnimateHeaderEn />
       <AboutEn />
+      <DiscordEnComponent />
       <ProjectsComponent />
       <FooterEnHome />
     </div>
