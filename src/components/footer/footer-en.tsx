@@ -43,7 +43,7 @@ const FooterEnHome = (): JSX.Element => {
                   {title}
                 </p>
                 {items.map((link: PropsItems) => (
-                  <li className="ml-0" key={link.name}>
+                  <li key={link.name}>
                     <a
                       href={link.link}
                       color="gray"

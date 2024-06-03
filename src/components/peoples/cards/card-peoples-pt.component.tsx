@@ -41,7 +41,7 @@ const CargPeoples: PeoplesCardProps[] = [
     description:
       "Responsável pela gestão geral e organização da Cheetah Solutions.",
     role: "CEO",
-    roleColor: "bg-blue-400",
+    roleColor: "bg-green-400",
     borderColor: "border-green-400",
     background: "https://cdn.discordapp.com/avatars/248829995395448834/cba69e17e1052da50052afa6feb19f3a.png?size=2048",
     icon: "https://cdn.discordapp.com/role-icons/1223106730292936775/638c04a2e4f0482b3e85dbbf379ffa5f.webp?size=16&quality=lossless"
@@ -51,7 +51,7 @@ const CargPeoples: PeoplesCardProps[] = [
     description:
       "Responsável pela gestão geral e organização da Cheetah Solutions.",
     role: "CEO",
-    roleColor: "bg-blue-400",
+    roleColor: "bg-green-400",
     borderColor: "border-green-400",
     background: "https://cdn.discordapp.com/avatars/1232269234818646087/a_650903ddebf64271281db2acee1bab6c.gif?size=2048",
     icon: "https://cdn.discordapp.com/role-icons/1223106730292936775/638c04a2e4f0482b3e85dbbf379ffa5f.webp?size=16&quality=lossless"
@@ -71,7 +71,7 @@ const CargPeoples: PeoplesCardProps[] = [
     description:
       "Responsável pela gestão geral e organização da Cheetah Solutions.",
     role: "CEO",
-    roleColor: "bg-blue-400",
+    roleColor: "bg-green-400",
     borderColor: "border-green-400",
     background: "https://cdn.discordapp.com/avatars/1158546330843611197/b3dc56573fee968356bd44a08573d038.png?size=2048",
     icon: "https://cdn.discordapp.com/role-icons/1223106730292936775/638c04a2e4f0482b3e85dbbf379ffa5f.webp?size=16&quality=lossless"
@@ -81,7 +81,7 @@ const CargPeoples: PeoplesCardProps[] = [
     description:
       "Responsável pela gestão geral e organização da Cheetah Solutions.",
     role: "CEO",
-    roleColor: "bg-blue-400",
+    roleColor: "bg-green-400",
     borderColor: "border-green-400",
     background: "https://cdn.discordapp.com/avatars/1199323382190182432/ab2e81381727e1b3891c1d780677e8e1.png?size=2048",
     icon: "https://cdn.discordapp.com/role-icons/1223106730292936775/638c04a2e4f0482b3e85dbbf379ffa5f.webp?size=16&quality=lossless"
@@ -114,7 +114,7 @@ const CardPeoplePtComponent = (): JSX.Element => {
   };
 
   return (
-    <section className="lg:ml-4 ml-0 md:ml-2 md:mt-0 mt-8 md:max-w-[40%] w-full">
+    <section className="w-full">
       <Swiper
         slidesPerView={1}
         spaceBetween={100}

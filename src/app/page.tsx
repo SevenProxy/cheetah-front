@@ -30,10 +30,10 @@ const HomePageEn = (): JSX.Element => {
       <AboutPt />
       <DiscordPtComponent />
       <ProjectsPtComponent />
-      <PeoplesPtComponent />
+      
       <FooterPtHome />
     </div>
   );
 };
-
+//<PeoplesPtComponent />
 export default HomePageEn;

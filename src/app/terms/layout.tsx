@@ -4,6 +4,7 @@ import './default.css';
 
 export const metadata: Metadata = {
   title: "Terms - Cheetah Português",
+  description: "@2024 Chyper Clond. Tudo reservado.",
 };
 
 export default function RootLayout({

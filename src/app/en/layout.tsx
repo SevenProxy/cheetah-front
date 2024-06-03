@@ -3,6 +3,7 @@ import React from 'react';
 
 export const metadata: Metadata = {
   title: "Cheetah English",
+  description: "@2024 Chyper Clond. All Rights Reserved.",
 };
 
 export default function RootLayout({

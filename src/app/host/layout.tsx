@@ -1,12 +1,11 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
-import './globals.css';
-
+import './default.css';
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Cheetah Solutions",
+  title: "Chypher Cloud",
   description: "@2024 Chyper Clond. Tudo reservado.",
 };
 
@@ -29,10 +28,6 @@ export default function RootLayout({
           content="Olá e bem-vindo à Cheetah Solutions Network! Somos especializados em criar comunidades para Discord, desenvolver datas para a comunidade de SA:MP, editar vídeos, criar sites personalizados e bots exclusivos. Estamos prontos para atender às suas necessidades e fortalecer sua comunidade online."
         />
         <link rel="icon" href="/images/logotipo.ico" type="image/x-icon" />
-        <link 
-          rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" 
-        />
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"

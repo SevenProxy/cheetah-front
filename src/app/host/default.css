@@ -1,0 +1,26 @@
+body {
+  line-height: 1.5;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -moz-tab-size: 4;
+  /* 3 */
+  -o-tab-size: 4;
+  tab-size: 4;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+}
+
+::-webkit-scrollbar {
+	height: 0px;
+	width: 5px;
+	background: #202020;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: rgba(126 34 206); /* Cor do polegar */
+}
+
+::-webkit-scrollbar-button {
+	background: rgba(126 34 206);
+}
